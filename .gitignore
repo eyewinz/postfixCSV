@@ -8,8 +8,7 @@ Thumbs.db
 # Node and related ecosystem
 # ==========================
 node_modules/
-public/lib/
-app/tests/coverage/
+.nyc_output/
 .bower-*/
 .idea/
 coverage/
