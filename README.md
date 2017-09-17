@@ -9,9 +9,16 @@ postfix.js - Util to evaluate a give postfix expression
 
 input.txt - sample input file
 
-To Run use command - 'node app.js'
-To run unit test - 'npm test'
-To get coverage report - 'nyc npm test'
+To Run, follow the steps
+
+-> Download the project
+-> 'npm update' - to download depend modules
+-> 'node app.js' - to execute the program (input file is in input.txt)
+
+To run unit test
+
+-> 'npm test'
+-> 'nyc npm test' (For coverage, before this do 'npm install nyc -g')
 
 # Assumptions
 1. Invalid file or non existing file will be considered an empty array of input
