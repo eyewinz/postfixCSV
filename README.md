@@ -16,7 +16,8 @@ To get coverage report - 'nyc npm test'
 # Assumptions
 1. Invalid file or non existing file will be considered an empty array of input
 
-# Limitations (To keep the design simple, following limitations are considered, however, code can be extended)
+# Limitations 
+(To keep the design simple, following limitations are considered, however, code can be extended)
 1. Columns are limited to 26 (a-z)
 2. Rows are limited to 9 (1-9)
 3. Col names can only be in lowercase (a-z)
